@@ -1,5 +1,6 @@
 /*
     Reutilizando la linkedlist anterior, implemente un metodo para añadir un nodo al comienzo.
+    Recuerdo que los nodos estan hilados uno al lado del otro, por lo tanto, si quiero colocar uno al principio, si esta vacio es la nueva cabeza, si no esta vacio, entonces primero guardo la cabeza vieja, seteo la nueva cabeza con el nodo nuevo y el nodo nuevo.next seria la cabeza vieja (que tiene a los nodos que le siguen)
 
     Rdo: cada nodo tiene su valor y el siguiente nodo
 
